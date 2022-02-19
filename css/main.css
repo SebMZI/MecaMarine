@@ -38,6 +38,9 @@
     width: 70%;
     margin-top: 20px;
   }
+  #about .about-content .team {
+    padding-bottom: 70px;
+  }
   .services-content {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -93,24 +96,30 @@
     margin-top: 30px;
   }
   #about {
-    height: 100vh !important;
+    height: 120vh !important;
+  }
+  #about .about-content {
+    margin: 0 0 50px !important;
   }
   #about .about-content .about-item img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 20px !important;
+  }
+  .services-content {
+    margin-top: 60px;
   }
   .work-content .work-item {
     width: 80% !important;
     margin: 10px auto 30px auto !important;
   }
   #contact .contact-content {
-    height: 76vh !important;
+    height: 95vh !important;
   }
   #contact .social a {
-    padding: 0 10px !important;
+    padding: 20px 10px !important;
   }
   #contact .contact-item-form form {
-    height: 70% !important;
+    height: 60% !important;
   }
   #contact .contact-item-form form select {
     width: 50% !important;

@@ -40,6 +40,9 @@
           margin-top: 20px;
         }
       }
+      .team {
+        padding-bottom: 70px;
+      }
     }
   }
 
@@ -101,15 +104,20 @@
   }
 
   #about {
-    height: 100vh !important;
+    height: 120vh !important;
     .about-content {
+      margin: 0 0 50px !important;
       .about-item {
         img {
           width: 100%;
-          margin-top: 20px;
+          margin-top: 20px !important;
         }
       }
     }
+  }
+
+  .services-content {
+    margin-top: 60px;
   }
 
   .work-content {
@@ -121,16 +129,16 @@
 
   #contact {
     .contact-content {
-      height: 76vh !important;
+      height: 95vh !important;
     }
     .social {
       a {
-        padding: 0 10px !important;
+        padding: 20px 10px !important;
       }
     }
     .contact-item-form {
       form {
-        height: 70% !important;
+        height: 60% !important;
         select {
           width: 50% !important;
         }
