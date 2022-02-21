@@ -115,12 +115,24 @@
   #contact .contact-content {
     height: 95vh !important;
   }
+  #contact .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   #contact .social a {
     margin: 10px 0;
-    padding: 20px 10px !important;
+    padding: 0 10px !important;
+  }
+  #contact .contact-item-form p {
+    margin-bottom: 20px !important;
   }
   #contact .contact-item-form form {
-    height: 60% !important;
+    height: 55% !important;
   }
   #contact .contact-item-form form select {
     width: 50% !important;
@@ -458,6 +470,7 @@ header .nav .navbar ul li a:hover {
 }
 
 #contact .contact-content .contact-item-form .social a {
+  display: inline-block;
   color: #fff;
   padding: 0 15px;
 }
